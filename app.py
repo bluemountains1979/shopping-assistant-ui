@@ -12,13 +12,14 @@ client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
 # Available product types
 PRODUCT_CATEGORIES = ["headphones", "laptop", "smartphone", "tablet", "wireless earbuds", "smartwatch"]
 CATEGORY_IMAGES = {
-    "headphones": "https://cdn-icons-png.flaticon.com/512/727/727245.png",
-    "laptop": "https://cdn-icons-png.flaticon.com/512/3659/3659892.png",
-    "smartphone": "https://cdn-icons-png.flaticon.com/512/747/747376.png",
-    "tablet": "https://cdn-icons-png.flaticon.com/512/809/809957.png",
-    "wireless earbuds": "https://cdn-icons-png.flaticon.com/512/3314/3314821.png",
-    "smartwatch": "https://cdn-icons-png.flaticon.com/512/4359/4359938.png"
+    "headphones": "https://cdn-icons-png.flaticon.com/512/3176/3176364.png",
+    "laptop": "https://cdn-icons-png.flaticon.com/512/3135/3135715.png",
+    "smartphone": "https://cdn-icons-png.flaticon.com/512/3588/3588621.png",
+    "tablet": "https://cdn-icons-png.flaticon.com/512/4354/4354184.png",
+    "wireless earbuds": "https://cdn-icons-png.flaticon.com/512/3771/3771632.png",
+    "smartwatch": "https://cdn-icons-png.flaticon.com/512/10401/10401607.png"
 }
+
 
 st.markdown("""
     <style>
