@@ -12,13 +12,9 @@ client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
 # Available product types
 PRODUCT_CATEGORIES = ["headphones", "laptop", "smartphone", "tablet", "wireless earbuds", "smartwatch"]
 CATEGORY_IMAGES = {
-    "headphones": "https://images.unsplash.com/photo-1580894732444-8ecded7900fa?auto=format&fit=crop&w=400&q=80",
-    "laptop": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?auto=format&fit=crop&w=400&q=80",
-    "smartphone": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&w=400&q=80",
-    "tablet": "https://images.unsplash.com/photo-1587825140708-dfaf72ae4b04?auto=format&fit=crop&w=400&q=80",
-    "wireless earbuds": "https://images.unsplash.com/photo-1606813904923-6d495aada27e?auto=format&fit=crop&w=400&q=80",
-    "smartwatch": "https://images.unsplash.com/photo-1516728778615-2d590ea1856f?auto=format&fit=crop&w=400&q=80"
+    "all": "https://images.unsplash.com/photo-1603791440384-56cd371ee9a7?auto=format&fit=crop&w=800&q=80"
 }
+
 
 
 
