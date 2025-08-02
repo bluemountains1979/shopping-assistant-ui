@@ -57,7 +57,7 @@ st.markdown("#### What are you looking for today?")
 cols = st.columns(len(PRODUCT_CATEGORIES))
 for i, category in enumerate(PRODUCT_CATEGORIES):
     with cols[i]:
-        st.image(CATEGORY_IMAGES[category], use_column_width=True)
+        st.image(CATEGORY_IMAGES[category], use_container_width=True)
         st.caption(category.title())
 
 # Text input without button
