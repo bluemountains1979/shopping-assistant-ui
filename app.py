@@ -10,7 +10,7 @@ client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))  # Or use st.secrets if hos
 # Setup
 if "assistant_id" not in st.session_state:
     # Use the assistant you created earlier
-    st.session_state.assistant_id = "asst_Ui8dHzDioBHYCyvSM6veiocT"
+    st.session_state.assistant_id = "asst_JIHq7w6MutKtvdzuxG7aG734"
 
 if "thread_id" not in st.session_state:
     thread = client.beta.threads.create()
