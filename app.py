@@ -64,7 +64,25 @@ if st.button("Ask"):
                     "laptop": [
                         {"name": "HP Pavilion 15", "price": "₹58,000"},
                         {"name": "MacBook Air M2", "price": "₹99,900"}
-                    ]
+                    ],
+                    "smartphone": [
+                        {"name": "iPhone 14", "price": "₹74,900"},
+                        {"name": "Samsung Galaxy S23", "price": "₹69,999"},
+                        {"name": "Redmi Note 12", "price": "₹16,499"}
+                    ],
+                    "tablet": [
+                        {"name": "iPad 10th Gen", "price": "₹39,900"},
+                        {"name": "Samsung Galaxy Tab S9", "price": "₹59,999"}
+                    ],
+                    "wireless earbuds": [
+                        {"name": "OnePlus Nord Buds 2", "price": "₹2,999"},
+                        {"name": "Realme Buds Air 5", "price": "₹3,499"}
+                    ],
+                    "smartwatch": [
+                        {"name": "Apple Watch SE", "price": "₹29,900"},
+                        {"name": "Noise ColorFit Ultra 3", "price": "₹3,999"}
+                    ]                                                               
+                                                                                   
                 }
                 result = json.dumps({"results": fake_results.get(product, [{"name": "Not found", "price": "-"}])})
 
