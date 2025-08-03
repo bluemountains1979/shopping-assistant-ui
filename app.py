@@ -12,12 +12,12 @@ client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
 # Available product types
 PRODUCT_CATEGORIES = ["headphones", "laptop", "smartphone", "tablet", "wireless earbuds", "smartwatch"]
 CATEGORY_IMAGES = {
-    "headphones": "https://images.pexels.com/photos/374870/pexels-photo-374870.jpeg?auto=compress&cs=tinysrgb&h=400",
-    "laptop": "https://cdn.pixabay.com/photo/2014/05/02/21/50/home-office-336378_960_720.jpg",
-    "smartphone": "https://images.pexels.com/photos/404280/pexels-photo-404280.jpeg?auto=compress&cs=tinysrgb&h=400",
-    "tablet": "https://cdn.pixabay.com/photo/2014/02/01/17/28/tablet-256121_960_720.jpg",
-    "wireless earbuds": "https://images.pexels.com/photos/3394652/pexels-photo-3394652.jpeg?auto=compress&cs=tinysrgb&h=400",
-    "smartwatch": "https://cdn.pixabay.com/photo/2015/10/12/15/01/apple-984155_960_720.jpg"
+    "headphones": "https://images.unsplash.com/photo-1580894732444-8ecded7900fa?auto=format&fit=crop&w=400&q=80",
+    "laptop": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?auto=format&fit=crop&w=400&q=80",
+    "smartphone": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&w=400&q=80",
+    "tablet": "https://images.unsplash.com/photo-1587825140708-dfaf72ae4b04?auto=format&fit=crop&w=400&q=80",
+    "wireless earbuds": "https://images.unsplash.com/photo-1606813904923-6d495aada27e?auto=format&fit=crop&w=400&q=80",
+    "smartwatch": "https://images.unsplash.com/photo-1516728778615-2d590ea1856f?auto=format&fit=crop&w=400&q=80"
 }
 
 st.markdown("""
