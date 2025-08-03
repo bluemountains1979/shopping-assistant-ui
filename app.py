@@ -20,6 +20,9 @@ CATEGORY_IMAGES = {
     "smartwatch": "https://images.unsplash.com/photo-1516728778615-2d590ea1856f?auto=format&fit=crop&w=400&q=80"
 }
 
+
+
+
 st.markdown("""
     <style>
     .product-img {
