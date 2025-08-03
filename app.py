@@ -12,7 +12,7 @@ client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
 # Available product types
 PRODUCT_CATEGORIES = ["headphones", "laptop", "smartphone", "tablet", "wireless earbuds", "smartwatch"]
 CATEGORY_IMAGES = {
-    "headphones": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Headphones_with_microphone.jpg",
+    "headphones": "https://github.com/bluemountains1979/shopping-assistant-ui/blob/main/headphones.jpg?raw=true",
     "laptop": "https://upload.wikimedia.org/wikipedia/commons/6/69/Modern_laptop.jpg",
     "smartphone": "https://upload.wikimedia.org/wikipedia/commons/f/f9/IPhone_XS_vector.svg",
     "tablet": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Ipad-4th-gen-wifi.png",
