@@ -16,8 +16,8 @@ CATEGORY_IMAGES = {
     "laptop": "https://github.com/bluemountains1979/shopping-assistant-ui/blob/main/laptop.jpg?raw=true",
     "smartphone": "https://github.com/bluemountains1979/shopping-assistant-ui/blob/main/smartphones.jpg?raw=true",
     "tablet": "https://github.com/bluemountains1979/shopping-assistant-ui/blob/main/tablet.jpg?raw=true",
-    "wireless earbuds": "https://github.com/bluemountains1979/shopping-assistant-ui/blob/main/wirelessearbuds.png?raw=true",
-    "smartwatch": "https://github.com/bluemountains1979/shopping-assistant-ui/blob/main/smartphones.jpg?raw=true"
+   # "wireless earbuds": "https://github.com/bluemountains1979/shopping-assistant-ui/blob/main/wirelessearbuds.png?raw=true",
+    "smartwatch": "https://github.com/bluemountains1979/shopping-assistant-ui/blob/main/smart-watch-821557_1280.jpg?raw=true"
 }
 
 
