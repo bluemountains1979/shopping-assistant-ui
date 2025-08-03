@@ -13,11 +13,11 @@ client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
 PRODUCT_CATEGORIES = ["headphones", "laptop", "smartphone", "tablet", "wireless earbuds", "smartwatch"]
 CATEGORY_IMAGES = {
     "headphones": "https://github.com/bluemountains1979/shopping-assistant-ui/blob/main/headphones.jpg?raw=true",
-    "laptop": "https://upload.wikimedia.org/wikipedia/commons/6/69/Modern_laptop.jpg",
-    "smartphone": "https://upload.wikimedia.org/wikipedia/commons/f/f9/IPhone_XS_vector.svg",
-    "tablet": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Ipad-4th-gen-wifi.png",
-    "wireless earbuds": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Wireless_Earbuds.jpg",
-    "smartwatch": "https://upload.wikimedia.org/wikipedia/commons/2/2c/Smartwatch-1.jpg"
+    "laptop": "https://github.com/bluemountains1979/shopping-assistant-ui/blob/main/laptop.jpg?raw=true",
+    "smartphone": "https://github.com/bluemountains1979/shopping-assistant-ui/blob/main/smartphones.jpg?raw=true",
+    "tablet": "https://github.com/bluemountains1979/shopping-assistant-ui/blob/main/tablet.jpg?raw=true",
+    "wireless earbuds": "https://github.com/bluemountains1979/shopping-assistant-ui/blob/main/wirelessearbuds.png?raw=true",
+    "smartwatch": "https://github.com/bluemountains1979/shopping-assistant-ui/blob/main/smartphones.jpg?raw=true"
 }
 
 
